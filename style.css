@@ -1,8 +1,16 @@
 body {
-  background-color: #111;
+  background-color: #dc143c;
   color: white;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 400px;
+  position: relative;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP2TwSbk_Vrn8nPPYdQl3aFfq1uJXG6kk4X4R5Rm_eSZC1_2b9oIwThUZ7dECKkNR8N3Q&usqp=CAU');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0 0 0 30px;
+  flex-direction: column;
+  justify-content: center;  
 }
 
 .dropdown-container {
@@ -14,7 +22,7 @@ body {
 }
 
 .dropdown {
-  background-color: black;
+  background-color: blue;
   padding: 8px;
   border-radius: 4px;
   width: 100px;
@@ -79,6 +87,7 @@ header {
   left: 0;
   right: 0;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .logo > img {
@@ -100,7 +109,8 @@ img {
 .featured {
   height: 400px;
   position: relative;
-  background-image: url('https://image.tmdb.org/t/p/original//3lBDg3i6nn5R2NKFCJ6oKyUo2j5.jpg');
+  background-image: url(https://images.immediate.co.uk/production/volatile/sites/3/2023/04/enr198main-Cropped-c924ad6.jpg?quality=90&webp=true&resize=426,284);
+ 
   background-size: cover;
   background-position: center;
   padding: 0 0 0 30px;
